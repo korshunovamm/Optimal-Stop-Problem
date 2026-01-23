@@ -5,6 +5,84 @@ from dataclasses import dataclass
 import numpy as np
 
 
+# nb_stocks=[1] — Количество активов в портфеле/опционе. 1 — обычный опцион на один актив.
+# spots=[100] — Начальная цена актива (Spot price, S₀).
+# strikes=[100] — Цена исполнения (Strike price, K). Ат-те-мани (ATM) опцион, так как spot=strike=100.
+# maturities=[1.0] — Срок до экспирации в годах (T=1 год).
+# volatilities=[0.2] — Волатильность актива (σ=20% годовых). Мера неопределенности.
+# drift=[0.05] — Дрейф (безрисковая ставка) в модели (r=5%). На самом деле это процентная ставка для risk-neutral ценообразования.
+# dividends=[0.0] — Дивидендная доходность (q=0%). Актив не платит дивиденды.
+# nb_dates=[10, 25, 50, 100] — Количество временных шагов (дат упражнения) на протяжении срока жизни опциона. Важный параметр:
+# nb_paths=[20000] — Количество сценариев (траекторий) цены в симуляции Монте-Карло. Больше путей → точнее оценка, но дольше расчет.
+# nb_runs=20 — Количество независимых запусков каждого эксперимента. Нужно для статистики: считают среднее и стандартное отклонение результатов по 20 запускам, чтобы оценить устойчивость методов.
+# eps = 0.5
+
+diploma_minput_Heston_S0 = _DefaultConfig(
+    algos=['RLSM','NLSM','LSM'],
+    stock_models=['Heston'],
+    payoffs=['MinPut'],
+    spots=[100],
+    strikes=[100],
+    maturities=[1.0],
+    drift=[0.05],
+    volatilities=[0.2],
+    nb_dates=[50],
+    nb_paths=[20000],
+    nb_runs=20,
+    hidden_size=[50],
+    nb_epochs=[30],
+    use_payoff_as_input=[True],
+    train_ITM_only=[True],
+)
+
+diploma_minput_Heston_Splus = _DefaultConfig(**{**diploma_minput_Heston_S0.__dict__, "spots":[100+eps]})
+diploma_minput_Heston_Sminus = _DefaultConfig(**{**diploma_minput_Heston_S0.__dict__, "spots":[100-eps]})
+
+
+
+diploma_minput_BS = _DefaultConfig(
+    algos=['LSM', 'RLSM', 'NLSM'],
+    stock_models=['BlackScholes'],
+    payoffs=['MinPut'],
+    nb_stocks=[1],
+    spots=[100],
+    strikes=[100],
+    maturities=[1.0],
+    volatilities=[0.2],
+    drift=[0.05],
+    dividends=[0.0],
+    nb_dates=[10, 25, 50, 100],
+    nb_paths=[20000],
+    nb_runs=20,
+    hidden_size=[50],
+    nb_epochs=[30],
+    use_payoff_as_input=[True],     # как в их greeks-экспериментах
+    train_ITM_only=[True],
+)
+
+# ======================
+# Diploma: Greeks for 1D American Put (MinPut with nb_stocks=1)
+# ======================
+diploma_greeks_put1d_BS = _DefaultConfig(
+    stock_models=['BlackScholes'],
+    payoffs=['MinPut'],
+    nb_stocks=[1],
+    spots=[100], strikes=[100], maturities=[1.0],
+    volatilities=[0.2],
+    dividends=[0.0],
+    drift=[0.05],
+    nb_dates=[50],
+    nb_paths=[100000],     # греческие обычно шумные — лучше больше
+    nb_runs=10,
+    algos=['LSM', 'RLSM', 'NLSM', 'B'],  # B пригодится как sanity check
+    use_payoff_as_input=[True],
+    train_ITM_only=[True],
+    use_path=[False],
+    hidden_size=[20],
+    nb_epochs=[30],
+    representations=['TablePriceDuration'],
+)
+
 
 # ======================
 # Pricing Stage — Scenario A: Base case
