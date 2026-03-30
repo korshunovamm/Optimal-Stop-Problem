@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 with open('LICENSE') as f:
-    license = f.read().splitlines()
+    license = f.read()
 
 
 setuptools.setup(

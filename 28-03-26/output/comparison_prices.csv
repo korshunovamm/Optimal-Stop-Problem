@@ -1,0 +1,4 @@
+algo,model,price,seconds,path_gen_s
+LSM,BlackScholes,9.765406244861786,0.153,0.0433
+NLSM,BlackScholes,4.384242826830663,2.078,0.0426
+RLSM,BlackScholes,9.688055098404705,2.016,0.026

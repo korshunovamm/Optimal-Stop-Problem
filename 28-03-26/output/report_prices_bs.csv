@@ -1,0 +1,4 @@
+experiment,algo,model,price,time_s,path_gen_s
+bs_main,LSM,BlackScholes,9.86246,0.13,0.0425
+bs_main,NLSM,BlackScholes,8.459137,7.67,0.079
+bs_main,RLSM,BlackScholes,9.766693,2.48,0.0409

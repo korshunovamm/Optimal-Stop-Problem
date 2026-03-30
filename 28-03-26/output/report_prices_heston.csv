@@ -1,0 +1,4 @@
+experiment,algo,model,price,time_s,path_gen_s
+heston_main,LSM,Heston,9.874613,6.63,6.5952
+heston_main,NLSM,Heston,3.837204,8.83,6.4646
+heston_main,RLSM,Heston,9.663919,7.88,6.2238
