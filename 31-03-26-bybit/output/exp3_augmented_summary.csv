@@ -1,0 +1,4 @@
+algo,price,fit_time,var95_intr,cvar95_intr,mean_shortfall_intr,hedge_time,n_test
+LSM,6.2801,0.01,7.0094,10.9950,1.2693,0.42,174
+RLSM,5.0902,3.72,11.1419,13.9895,2.7787,4.15,174
+NLSM,5.2618,6.41,14.0033,18.3003,4.9950,11.99,174

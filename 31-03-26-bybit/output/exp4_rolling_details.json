@@ -1,0 +1,470 @@
+{
+  "LSM": {
+    "windows": [
+      {
+        "window": 1,
+        "test_start": "2023-07-01",
+        "test_end": "2023-07-31",
+        "btc_start": 30587.66,
+        "btc_end": 29234.04,
+        "price": 4.935543694689414,
+        "fit_time": 0.006960630416870117,
+        "hedge_time": 0.002263784408569336,
+        "max_shortfall_model": 0.10911199781043579,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 2,
+        "test_start": "2023-07-31",
+        "test_end": "2023-08-30",
+        "btc_start": 29234.04,
+        "btc_end": 27297.97,
+        "price": 4.8128936821014685,
+        "fit_time": 0.006788015365600586,
+        "hedge_time": 0.0021741390228271484,
+        "max_shortfall_model": 0.24018722516749016,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 3,
+        "test_start": "2023-08-30",
+        "test_end": "2023-09-29",
+        "btc_start": 27297.97,
+        "btc_end": 26910.0,
+        "price": 4.673066359713361,
+        "fit_time": 0.006758928298950195,
+        "hedge_time": 0.002223968505859375,
+        "max_shortfall_model": 2.6945680062769877,
+        "max_shortfall_intr": 1.0060741162976163
+      },
+      {
+        "window": 4,
+        "test_start": "2023-09-29",
+        "test_end": "2023-10-29",
+        "btc_start": 26910.0,
+        "btc_end": 34524.84,
+        "price": 4.842356342691945,
+        "fit_time": 0.00685572624206543,
+        "hedge_time": 0.0022323131561279297,
+        "max_shortfall_model": 0.0,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 5,
+        "test_start": "2023-10-29",
+        "test_end": "2023-11-28",
+        "btc_start": 34524.84,
+        "btc_end": 37817.48,
+        "price": 4.01063592311352,
+        "fit_time": 0.006987810134887695,
+        "hedge_time": 0.002222299575805664,
+        "max_shortfall_model": 2.976717499666145,
+        "max_shortfall_intr": 2.976717499666145
+      },
+      {
+        "window": 6,
+        "test_start": "2023-11-28",
+        "test_end": "2023-12-28",
+        "btc_start": 37817.48,
+        "btc_end": 42565.01,
+        "price": 3.5954416876713013,
+        "fit_time": 0.0067632198333740234,
+        "hedge_time": 0.0021517276763916016,
+        "max_shortfall_model": 3.056526490349222,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 7,
+        "test_start": "2023-12-28",
+        "test_end": "2024-01-27",
+        "btc_start": 42565.01,
+        "btc_end": 42123.01,
+        "price": 3.240837250291422,
+        "fit_time": 0.006669282913208008,
+        "hedge_time": 0.0021555423736572266,
+        "max_shortfall_model": 8.468801359789225,
+        "max_shortfall_intr": 5.696369749291579
+      },
+      {
+        "window": 8,
+        "test_start": "2024-01-27",
+        "test_end": "2024-02-26",
+        "btc_start": 42123.01,
+        "btc_end": 54478.0,
+        "price": 3.551801297113346,
+        "fit_time": 0.006930112838745117,
+        "hedge_time": 0.002226114273071289,
+        "max_shortfall_model": 3.0256921806191817,
+        "max_shortfall_intr": 2.326890593871565
+      },
+      {
+        "window": 9,
+        "test_start": "2024-02-26",
+        "test_end": "2024-03-27",
+        "btc_start": 54478.0,
+        "btc_end": 69470.79,
+        "price": 3.270383038042749,
+        "fit_time": 0.006505250930786133,
+        "hedge_time": 0.002211332321166992,
+        "max_shortfall_model": 12.020980709858447,
+        "max_shortfall_intr": 1.467492510164084
+      },
+      {
+        "window": 10,
+        "test_start": "2024-03-27",
+        "test_end": "2024-04-26",
+        "btc_start": 69470.79,
+        "btc_end": 63777.35,
+        "price": 2.8646878005321628,
+        "fit_time": 0.006585359573364258,
+        "hedge_time": 0.0022170543670654297,
+        "max_shortfall_model": 4.908752897753952,
+        "max_shortfall_intr": 4.182480164702908
+      },
+      {
+        "window": 11,
+        "test_start": "2024-04-26",
+        "test_end": "2024-05-26",
+        "btc_start": 63777.35,
+        "btc_end": 68510.0,
+        "price": 3.051117288397535,
+        "fit_time": 0.006465435028076172,
+        "hedge_time": 0.002215147018432617,
+        "max_shortfall_model": 7.794678849753988,
+        "max_shortfall_intr": 7.559350227730125
+      },
+      {
+        "window": 12,
+        "test_start": "2024-05-26",
+        "test_end": "2024-06-25",
+        "btc_start": 68510.0,
+        "btc_end": 61804.29,
+        "price": 3.1585480052837536,
+        "fit_time": 0.006424665451049805,
+        "hedge_time": 0.0021867752075195312,
+        "max_shortfall_model": 1.5547836968965112,
+        "max_shortfall_intr": 0.0
+      }
+    ],
+    "aggregate": {
+      "mean_price": 3.833942697470165,
+      "mean_shortfall": 2.101281238477002,
+      "var95": 7.559350227730125,
+      "cvar95": 7.559350227730125,
+      "mean_fit_time": 0.006724536418914795,
+      "n_windows": 12
+    }
+  },
+  "RLSM": {
+    "windows": [
+      {
+        "window": 1,
+        "test_start": "2023-07-01",
+        "test_end": "2023-07-31",
+        "btc_start": 30587.66,
+        "btc_end": 29234.04,
+        "price": 3.8675178826622,
+        "fit_time": 5.065697908401489,
+        "hedge_time": 0.20076251029968262,
+        "max_shortfall_model": 7.666122273678254,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 2,
+        "test_start": "2023-07-31",
+        "test_end": "2023-08-30",
+        "btc_start": 29234.04,
+        "btc_end": 27297.97,
+        "price": 3.8132862545202317,
+        "fit_time": 3.3692798614501953,
+        "hedge_time": 0.060573577880859375,
+        "max_shortfall_model": 4.943566214257099,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 3,
+        "test_start": "2023-08-30",
+        "test_end": "2023-09-29",
+        "btc_start": 27297.97,
+        "btc_end": 26910.0,
+        "price": 3.5168429362405327,
+        "fit_time": 3.499990701675415,
+        "hedge_time": 0.08333086967468262,
+        "max_shortfall_model": 10.694930194565238,
+        "max_shortfall_intr": 1.4644201961434116
+      },
+      {
+        "window": 4,
+        "test_start": "2023-09-29",
+        "test_end": "2023-10-29",
+        "btc_start": 26910.0,
+        "btc_end": 34524.84,
+        "price": 3.7549909156881682,
+        "fit_time": 3.4378433227539062,
+        "hedge_time": 0.05709671974182129,
+        "max_shortfall_model": 8.263976353937467,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 5,
+        "test_start": "2023-10-29",
+        "test_end": "2023-11-28",
+        "btc_start": 34524.84,
+        "btc_end": 37817.48,
+        "price": 2.8465979247445947,
+        "fit_time": 3.202042579650879,
+        "hedge_time": 0.05628776550292969,
+        "max_shortfall_model": 4.578940165165395,
+        "max_shortfall_intr": 3.272737704863221
+      },
+      {
+        "window": 6,
+        "test_start": "2023-11-28",
+        "test_end": "2023-12-28",
+        "btc_start": 37817.48,
+        "btc_end": 42565.01,
+        "price": 2.7165457914481865,
+        "fit_time": 3.43528413772583,
+        "hedge_time": 0.08957386016845703,
+        "max_shortfall_model": 9.027849460989273,
+        "max_shortfall_intr": 5.482108687857522
+      },
+      {
+        "window": 7,
+        "test_start": "2023-12-28",
+        "test_end": "2024-01-27",
+        "btc_start": 42565.01,
+        "btc_end": 42123.01,
+        "price": 2.423184061874311,
+        "fit_time": 3.6455883979797363,
+        "hedge_time": 0.09181451797485352,
+        "max_shortfall_model": 6.430307661743301,
+        "max_shortfall_intr": 3.3826122270342274
+      },
+      {
+        "window": 8,
+        "test_start": "2024-01-27",
+        "test_end": "2024-02-26",
+        "btc_start": 42123.01,
+        "btc_end": 54478.0,
+        "price": 2.538361239380509,
+        "fit_time": 3.6371026039123535,
+        "hedge_time": 0.09175658226013184,
+        "max_shortfall_model": 13.167991625426797,
+        "max_shortfall_intr": 4.799531709760099
+      },
+      {
+        "window": 9,
+        "test_start": "2024-02-26",
+        "test_end": "2024-03-27",
+        "btc_start": 54478.0,
+        "btc_end": 69470.79,
+        "price": 2.4334119848639757,
+        "fit_time": 3.415771245956421,
+        "hedge_time": 0.056586503982543945,
+        "max_shortfall_model": 5.428083517908115,
+        "max_shortfall_intr": 5.428083517908115
+      },
+      {
+        "window": 10,
+        "test_start": "2024-03-27",
+        "test_end": "2024-04-26",
+        "btc_start": 69470.79,
+        "btc_end": 63777.35,
+        "price": 2.257625234560819,
+        "fit_time": 3.462083339691162,
+        "hedge_time": 0.03151059150695801,
+        "max_shortfall_model": 11.464069693844925,
+        "max_shortfall_intr": 2.3813751637542473
+      },
+      {
+        "window": 11,
+        "test_start": "2024-04-26",
+        "test_end": "2024-05-26",
+        "btc_start": 63777.35,
+        "btc_end": 68510.0,
+        "price": 2.4057727921551124,
+        "fit_time": 3.6859216690063477,
+        "hedge_time": 0.052664995193481445,
+        "max_shortfall_model": 6.824791318420308,
+        "max_shortfall_intr": 4.136246708708022
+      },
+      {
+        "window": 12,
+        "test_start": "2024-05-26",
+        "test_end": "2024-06-25",
+        "btc_start": 68510.0,
+        "btc_end": 61804.29,
+        "price": 2.4629240106845134,
+        "fit_time": 3.6374518871307373,
+        "hedge_time": 0.08031868934631348,
+        "max_shortfall_model": 8.018492003478059,
+        "max_shortfall_intr": 0.0
+      }
+    ],
+    "aggregate": {
+      "mean_price": 2.9197550857352628,
+      "mean_shortfall": 2.5289263263357387,
+      "var95": 5.482108687857522,
+      "cvar95": 5.482108687857522,
+      "mean_fit_time": 3.624504804611206,
+      "n_windows": 12
+    }
+  },
+  "NLSM": {
+    "windows": [
+      {
+        "window": 1,
+        "test_start": "2023-07-01",
+        "test_end": "2023-07-31",
+        "btc_start": 30587.66,
+        "btc_end": 29234.04,
+        "price": 4.810885168135783,
+        "fit_time": 52.75107717514038,
+        "hedge_time": 0.06857109069824219,
+        "max_shortfall_model": 4.255641775181752,
+        "max_shortfall_intr": 0.1372212670701217
+      },
+      {
+        "window": 2,
+        "test_start": "2023-07-31",
+        "test_end": "2023-08-30",
+        "btc_start": 29234.04,
+        "btc_end": 27297.97,
+        "price": 4.821393528707301,
+        "fit_time": 6.2044596672058105,
+        "hedge_time": 0.07134509086608887,
+        "max_shortfall_model": 8.236920589920413,
+        "max_shortfall_intr": 6.254051006752294
+      },
+      {
+        "window": 3,
+        "test_start": "2023-08-30",
+        "test_end": "2023-09-29",
+        "btc_start": 27297.97,
+        "btc_end": 26910.0,
+        "price": 4.503346399667229,
+        "fit_time": 6.190735340118408,
+        "hedge_time": 0.06998610496520996,
+        "max_shortfall_model": 5.68526061377501,
+        "max_shortfall_intr": 3.5606375370736068
+      },
+      {
+        "window": 4,
+        "test_start": "2023-09-29",
+        "test_end": "2023-10-29",
+        "btc_start": 26910.0,
+        "btc_end": 34524.84,
+        "price": 4.666198259012302,
+        "fit_time": 5.932618618011475,
+        "hedge_time": 0.07049083709716797,
+        "max_shortfall_model": 4.432829158679,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 5,
+        "test_start": "2023-10-29",
+        "test_end": "2023-11-28",
+        "btc_start": 34524.84,
+        "btc_end": 37817.48,
+        "price": 3.6766741114293806,
+        "fit_time": 6.197763681411743,
+        "hedge_time": 0.06860995292663574,
+        "max_shortfall_model": 3.989925715616825,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 6,
+        "test_start": "2023-11-28",
+        "test_end": "2023-12-28",
+        "btc_start": 37817.48,
+        "btc_end": 42565.01,
+        "price": 3.342717128013384,
+        "fit_time": 6.972608804702759,
+        "hedge_time": 0.07052135467529297,
+        "max_shortfall_model": 3.481677018089747,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 7,
+        "test_start": "2023-12-28",
+        "test_end": "2024-01-27",
+        "btc_start": 42565.01,
+        "btc_end": 42123.01,
+        "price": 3.1350809060417175,
+        "fit_time": 7.150495290756226,
+        "hedge_time": 0.07189106941223145,
+        "max_shortfall_model": 4.824281213282241,
+        "max_shortfall_intr": 4.350598884639821
+      },
+      {
+        "window": 8,
+        "test_start": "2024-01-27",
+        "test_end": "2024-02-26",
+        "btc_start": 42123.01,
+        "btc_end": 54478.0,
+        "price": 3.4441469227564907,
+        "fit_time": 7.132219076156616,
+        "hedge_time": 0.07143187522888184,
+        "max_shortfall_model": 3.880877610935582,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 9,
+        "test_start": "2024-02-26",
+        "test_end": "2024-03-27",
+        "btc_start": 54478.0,
+        "btc_end": 69470.79,
+        "price": 3.2191899716624213,
+        "fit_time": 7.113991022109985,
+        "hedge_time": 0.06926274299621582,
+        "max_shortfall_model": 4.198140047401706,
+        "max_shortfall_intr": 0.0
+      },
+      {
+        "window": 10,
+        "test_start": "2024-03-27",
+        "test_end": "2024-04-26",
+        "btc_start": 69470.79,
+        "btc_end": 63777.35,
+        "price": 2.8292258808753314,
+        "fit_time": 8.83392071723938,
+        "hedge_time": 0.06836676597595215,
+        "max_shortfall_model": 17.39315962836425,
+        "max_shortfall_intr": 17.39315962836425
+      },
+      {
+        "window": 11,
+        "test_start": "2024-04-26",
+        "test_end": "2024-05-26",
+        "btc_start": 63777.35,
+        "btc_end": 68510.0,
+        "price": 3.1045071323107183,
+        "fit_time": 7.446293830871582,
+        "hedge_time": 0.07168984413146973,
+        "max_shortfall_model": 7.536362122876728,
+        "max_shortfall_intr": 5.348253827720758
+      },
+      {
+        "window": 12,
+        "test_start": "2024-05-26",
+        "test_end": "2024-06-25",
+        "btc_start": 68510.0,
+        "btc_end": 61804.29,
+        "price": 3.131873124556503,
+        "fit_time": 8.042941093444824,
+        "hedge_time": 0.07177352905273438,
+        "max_shortfall_model": 5.358325768774584,
+        "max_shortfall_intr": 5.358325768774584
+      }
+    ],
+    "aggregate": {
+      "mean_price": 3.723769877764047,
+      "mean_shortfall": 3.5335206600329534,
+      "var95": 17.39315962836425,
+      "cvar95": 17.39315962836425,
+      "mean_fit_time": 10.8307603597641,
+      "n_windows": 12
+    }
+  }
+}

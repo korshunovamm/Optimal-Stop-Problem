@@ -1,0 +1,20 @@
+{
+  "LSM": {
+    "total_time_s": 0.10375666618347168,
+    "n_evals": 2000,
+    "mean_delta_us": 51.87833309173584,
+    "speedup_vs_lsm": 1.0
+  },
+  "RLSM": {
+    "total_time_s": 0.9898190498352051,
+    "n_evals": 2000,
+    "mean_delta_us": 494.90952491760254,
+    "speedup_vs_lsm": 0.104823872808617
+  },
+  "NLSM": {
+    "total_time_s": 2.4874162673950195,
+    "n_evals": 2000,
+    "mean_delta_us": 1243.7081336975098,
+    "speedup_vs_lsm": 0.04171262668959396
+  }
+}
