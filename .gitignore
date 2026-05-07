@@ -1,5 +1,11 @@
 *.DS_Store
 *.idea/*
+py3/
+draft*
+data/
+.vscode/
+*.swp
+*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

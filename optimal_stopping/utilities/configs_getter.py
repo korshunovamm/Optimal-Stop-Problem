@@ -2,7 +2,7 @@ import inspect
 
 from absl import flags
 
-from optimal_stopping.run import configs
+from optimal_stopping.run import my_configs as configs
 
 FLAGS = flags.FLAGS
 

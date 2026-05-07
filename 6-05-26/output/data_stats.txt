@@ -1,0 +1,45 @@
+File size: 1192414653 bytes (1192.4 MB)
+Columns: ['id', 'full_name', 'current_time', 'expiry', 'tte_days', 'strike', 'underlying_price', 'moneyness', 'mark_price', 'mark_price_usd', 'bid_price', 'bid_price_usd', 'ask_price', 'ask_price_usd', 'bid_IV', 'ask_IV', 'mid_IV', 'open_interest', 'volume', 'interest_rate']
+Shape (first 100k): (100000, 20)
+
+TTE stats:
+count    100000.000000
+mean         27.184639
+std          25.733626
+min           1.000000
+25%           7.930000
+50%          15.210000
+75%          36.540000
+max          71.710000
+
+Moneyness stats:
+count    100000.000000
+mean          1.195474
+std           0.571271
+min           0.448200
+25%           0.874300
+50%           1.021300
+75%           1.303725
+max           4.649700
+
+Strike range: 15000 - 140000
+Underlying range: 61753 - 71023
+Mark USD stats:
+count    100000.000000
+mean       8597.151843
+std       12187.178353
+min           0.000000
+25%         392.812500
+50%        3377.555000
+75%       11963.300000
+max       77361.460000
+
+Dates: 2024-03-20 to 2024-03-24 (4 unique)
+
+Sample:
+    id          full_name                current_time               expiry  tte_days  strike  underlying_price  moneyness  mark_price  mark_price_usd  bid_price  bid_price_usd  ask_price  ask_price_usd    bid_IV    ask_IV    mid_IV  open_interest  volume  interest_rate
+0  918  BTC-22MAR24-66500  2024-03-20 06:52:18.957262  0024-03-22 00:00:00      1.71   66500      61881.670000     0.9306    0.079108         4895.31     0.0765        4733.95     0.0810        5012.42  0.679200  0.969534  0.841629          107.8     0.1            0.0
+1  920  BTC-31MAY24-84000  2024-03-20 06:52:18.957262  0024-05-31 00:00:00     71.71   84000      63903.893333     0.7608    0.370435        23672.21        NaN            NaN        NaN            NaN       NaN       NaN       NaN            1.5     0.0            0.0
+2  921  BTC-31MAY24-40000  2024-03-20 06:52:18.957262  0024-05-31 00:00:00     71.71   40000      63903.893333     1.5976    0.013708          875.98     0.0130         830.75     0.0145         926.61  0.814187  0.838763  0.826623           95.8     3.5            0.0
+3  931  BTC-22MAR24-92000  2024-03-20 06:52:18.957262  0024-03-22 00:00:00      1.71   92000      61881.670000     0.6726    0.486980        30135.11        NaN            NaN        NaN            NaN       NaN       NaN       NaN            0.0     0.0            0.0
+4  934  BTC-31MAY24-53000  2024-03-20 06:52:18.957262  0024-05-31 00:00:00     71.71   53000      63903.893333     1.2057    0.058139         3715.33     0.0575        3674.47     0.0585        3738.38  0.775367  0.782650  0.779013           44.7    10.7            0.0
